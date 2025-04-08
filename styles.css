@@ -1,0 +1,32 @@
+/* External CSS */
+/* 
+CSS Selector: body - elementet vi vil modifisere
+CSS Declaration{} - identifiserer hvor vi skriver koden for modifisering
+CSS Rule: background-color: blue; - 'key' på hva skal modifiseres 
+og 'value'til hvordan det skal modifiserest
+*/
+
+body {
+    background-color: cadetblue;
+    font-size: 10px;
+}
+
+header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* 'shorthand' metode */
+    border: 3px black solid;
+    /* Longhand metode
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
