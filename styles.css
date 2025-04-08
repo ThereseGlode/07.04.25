@@ -8,8 +8,19 @@ og 'value'til hvordan det skal modifiserest
 
 body {
     background-color: cadetblue;
-    font-size: 10px;
+    font-size: 20px;
 }
+.hero-p {
+    text-align: left;
+    font-style: normal;
+}
+.heroText {
+    font-size: xx-large; 
+    text-align: center;
+    font-style: italic;
+}
+hero {
+text-align: center ;}
 
 header {
     display: flex;
@@ -17,6 +28,17 @@ header {
     justify-content: space-between;
 }
 
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(14, 16, 19);
+    font-size: larger;
+}
+.heroimg3 {
+    display: flex;
+    justify-content: space-between;
+}
 .logo {
     /* 'shorthand' metode */
     border: 3px black solid;
@@ -29,4 +51,25 @@ header {
     border-radius: 50%;
 }
 
+img {
+    max-width: 300px;
+}
 
+.hero {
+    display: flex;
+    text-align: left;
+}
+
+.heroText, .heroimg {
+    width: 60%;
+    align-items: center;
+}
+.hero-p {
+    margin-right: 20px;
+    font-size: medium;
+}
+.sm-img {
+    justify-content: space-between;
+    justify-content: space-around;
+    max-width: 50px;
+}
