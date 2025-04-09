@@ -6,39 +6,12 @@ CSS Rule: background-color: blue; - 'key' på hva skal modifiseres
 og 'value'til hvordan det skal modifiserest
 */
 
-body {
-    background-color: cadetblue;
-    font-size: 20px;
-}
-.hero-p {
-    text-align: left;
-    font-style: normal;
-}
-.heroText {
-    font-size: xx-large; 
-    text-align: center;
-    font-style: italic;
-}
-hero {
-text-align: center ;}
-
-header {
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
+/*GLOBAL*/
+img {
+    max-width: 300px;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    color: rgb(14, 16, 19);
-    font-size: larger;
-}
-.heroimg3 {
-    display: flex;
-    justify-content: space-between;
-}
+/* HEADER*/
 .logo {
     /* 'shorthand' metode */
     border: 3px black solid;
@@ -50,24 +23,59 @@ footer {
     padding: 10px;
     border-radius: 50%;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
-img {
-    max-width: 300px;
+/*MAIN*/
+
+body {
+    background-color: cadetblue;
+    font-size: 20px;
+}
+.heroText {
+    font-size: xx-large; 
+    text-align: center;
+}
+
+.heroimg {
+    justify-content: right;
 }
 
 .hero {
     display: flex;
     text-align: left;
 }
-
-.heroText, .heroimg {
-    width: 60%;
-    align-items: center;
+.hero2 { 
+    font-size: xx-large; 
+    text-align: center;
 }
+
 .hero-p {
     margin-right: 20px;
     font-size: medium;
 }
+.hero2 {
+    display: flex;
+    align-items: center;
+}
+.hero2, .herotekst2 {
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+/*FOOTER*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(14, 16, 19);
+    font-size: larger;
+}
+
+/*sm-ing sosial media bilder */
 .sm-img {
     justify-content: space-between;
     justify-content: space-around;
