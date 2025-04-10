@@ -7,6 +7,7 @@ og 'value'til hvordan det skal modifiserest
 */
 
 /*GLOBAL*/
+
 img {
     max-width: 300px;
 }
@@ -34,8 +35,34 @@ body {
     background-color: cadetblue;
     font-size: 20px;
 }
+
+.heroimg {
+    border: 3px;
+    background-color: brown;
+}
+
 h1 {
-    align-items: center;
+    text-align: center;
+    background-color:cadetblue;
+    padding: 20px;
+    border: 3px solid cadetblue;
+}
+
+.hero p {
+    background-color: rgb(43, 226, 43);
+}
+
+.hero2 p {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 3px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .hero2 {
     display: flex;
