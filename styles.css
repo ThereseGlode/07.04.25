@@ -34,28 +34,8 @@ body {
     background-color: cadetblue;
     font-size: 20px;
 }
-.heroText {
-    font-size: xx-large; 
-    text-align: left
-}
-
-.heroimg {
-    width: 100%;
-}
-
-
-.hero {
-    justify-content: space-around;
-    display: flex;
-}
-.hero2 { 
-    font-size: xx-large; 
-    text-align: center;
-}
-
-.hero-p {
-    margin-right: 20px;
-    font-size: medium;
+h1 {
+    align-items: center;
 }
 .hero2 {
     display: flex;
