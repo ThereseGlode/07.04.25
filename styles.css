@@ -36,16 +36,17 @@ body {
 }
 .heroText {
     font-size: xx-large; 
-    text-align: center;
+    text-align: left
 }
 
 .heroimg {
-    justify-content: right;
+    width: 100%;
 }
 
+
 .hero {
+    justify-content: space-around;
     display: flex;
-    text-align: left;
 }
 .hero2 { 
     font-size: xx-large; 
