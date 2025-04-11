@@ -7,38 +7,79 @@ og 'value'til hvordan det skal modifiserest
 */
 
 /*GLOBAL*/
+html {
+  scroll-behavior: smooth;
+}
 
 img {
+    flex-grow: 0;
     max-width: 300px;
 }
 
 /* HEADER*/
 .logo {
     /* 'shorthand' metode */
-    border: 3px black solid;
     /* Longhand metode
     border-width: 3px;
     border-color: black;
     border-style: solid;
     */
     padding: 10px;
-    border-radius: 50%;
 }
+
 header {
     display: flex;
     justify-content: space-between;
 }
 
 /*MAIN*/
-
 body {
-    background-color: cadetblue;
-    font-size: 20px;
+  background-color: cadetblue;
+  font-size: 20px;
 }
 
-.heroimg {
-    border: 3px;
-    background-color: brown;
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 100px;
+}
+
+header nav a {
+  padding: 10px;
+}
+
+.mainSectionBlock{
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.sectiomOmMeg {
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
+.hero {
+   display: flex;
+   padding: 50px 100px;
+
+}
+.hero p {
+  display: flex;
+}
+
+.heroBlock {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 h1 {
@@ -48,32 +89,68 @@ h1 {
     border: 3px solid cadetblue;
 }
 
-.hero p {
-    background-color: rgb(43, 226, 43);
-}
-
 .hero2 p {
-    text-align: center;
+  text-align: center;
 }
 
-h2{
-    text-align: center;
-    background-color: cadetblue;
-    padding: 3px;
-}
 p{
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.hero2 {
-    display: flex;
-    align-items: center;
-}
-.hero2, .herotekst2 {
-    align-items: center;
-    justify-content: space-between;
-    justify-content: space-around;
 
+.hero2 {
+    min-height: 200px;
+    border: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   }
+
+.sectionProsjekter, .sectionKotakt {
+  padding: 100px 100px;
 }
+/* style card */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  height: 200px;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin-top: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px;
+  color: #777;
+}
+
+.card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
 /*FOOTER*/
 footer {
     display: flex;
@@ -85,7 +162,6 @@ footer {
 
 /*sm-ing sosial media bilder */
 .sm-img {
-    justify-content: space-between;
     justify-content: space-around;
     max-width: 50px;
 }
